@@ -239,9 +239,43 @@ hr{
 }
 
 /* SECTION 5 INICIO */
-.article5{
-    border: 1px solid orangered;
-    background-color: grey;
+.section5-container{
+    background-color: var(--primary);
+    background-image: url(../img/bg-icon.png);
+    background-size: contain;
+    padding: 96px 12px;
+    margin: 48px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5-content-text h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+    color: #F7F8FC;
+    margin: 0px 0px 16px;
+}
+.section5-content-text p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #F7F8FC;
+}
+.section5-content-btn{
+    display: flex;
+    justify-content: flex-end;
+    margin: 48px 0px 0px;
+    padding: 0px 24px;
+}
+.section5-content-btn button{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 16px 48px;
+    border-radius: 50rem;
+    background-color: #F65005;
+    color: #F7F8FC;
+    border: #F65005;
 }
 
 /* SECTION 6 INICIO */
