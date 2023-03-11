@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+:root {
+    --primary: #3CB815;
+    --secondary: #F65005;
+    --light: #F7F8FC;
+    --dark: #111111;
+}
+/* FOOTER INICIO */
+.footer-container{
+    background-color: #111;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+}
+.footer-container .footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: baseline;
+    background-color: #111;
+    color: #999;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FOOTER PARTE 1 */
+.footer-content .footer-foody{
+    margin: 48px 0px 0px;
+    padding: 0px 24px;
+}
+.footer-content .footer-foody p{
+    margin: 0px 0px 24px;
+}
+.footer-foody .footer-logo{
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #3CB815;
+}
+.footer-foody span{
+    color: #F65005;
+}
+.footer-content .footer-foody .footer-foody-text{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-content .footer-foody .footer-social{
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 0px 0px;
+}
+.footer-content .footer-foody .footer-social i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    margin-left: 0.25rem;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* FOOTER PARTE 2 */
+.footer-content .footer-address{
+    margin: 48px 0px 0px;
+    padding: 0px 24px;
+    width: 15%;
+}
+.footer-content .footer-address h4{
+    color: #F7F8FC;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    margin: 0px 0px 24px;
+}
+.footer-content .footer-address p{
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin: 0px 0px 16px;
+}
+.footer-content .footer-address i{
+    margin: 0px 16px 0px 0px;
+}
+
+/* FOOTER PARTE 3 */
+.footer-content .footer-links{
+    margin: 48px 0px 0px;
+    padding: 0px 24px;
+    width: 15%;
+}
+.footer-content .footer-links h4{
+    color: #F7F8FC;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    margin: 0px 0px 24px;
+}
+.footer-content .footer-links p{
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin: 0px 0px 5px;
+}
+.footer-content .footer-links i{
+    margin: 0px 10px 0px 0px;
+}
+
+/* FOOTER PARTE 4 */
+.footer-content .footer-newsletter{
+    margin: 48px 0px 0px;
+    padding: 0px 24px;
+}
+.footer-content .footer-newsletter h4{
+    color: #F7F8FC;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    margin: 0px 0px 24px;
+}
+.footer-content .footer-newsletter p{
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin: 0px 0px 16px;
+}
+.footer-content .footer-newsletter form{
+    position: relative;
+    display: block;
+    max-width: 400px;
+    padding: 16px 48px 16px 24px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #F7F8FC;
+    appearance: none;
+}
+.footer-content .footer-newsletter form input{
+    background-color: #111;
+    color: #555;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 0;
+    outline: 0;
+}
+.footer-content .footer-newsletter form ::placeholder{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #111;
+}
+.footer-content .footer-newsletter form button{
+    position: absolute;
+    padding: 8px 12px;
+    margin: 8px 8px 0px 0px;
+    color: #F7F8FC;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #3CB815;
+    border: none;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+}
+
+/* FOOTER PARTE 5 */
+.footer-copy-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    color: #999;
+    padding: 25px 0px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+.footer-copy-content{
+    width: 660px;
+    height: 45px;
+    padding: 0px 12px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-copy-content a{
+    color: #fff;
+}
+.footer-copy-designer{
+    width: 660px;
+    height: 45px;
+    padding: 0px 12px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-copy-designer a{
+    color: #fff;
+}
